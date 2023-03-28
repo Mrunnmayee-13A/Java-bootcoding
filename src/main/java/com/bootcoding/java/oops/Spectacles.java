@@ -14,10 +14,10 @@ public class Spectacles {
     }
     public static void main(String[] args){
         Spectacles s1=new Spectacles();
-        s1.shape= "hexagon";
-        s1.no= 2.5;
-        s1.thickness="broad";
-        s1.lens="convex";
+        s1.shape= "octane";
+        s1.no= 0.5;
+        s1.thickness="thin";
+        s1.lens="concave";
         s1.print();
     }
 }
