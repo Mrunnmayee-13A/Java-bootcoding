@@ -12,3 +12,8 @@ public class SumofOddNumber {
         System.out.println("Sum of all the odd elements is ="+sum);
     }
 }
+
+
+
+
+
