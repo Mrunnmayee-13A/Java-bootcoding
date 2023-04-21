@@ -23,7 +23,7 @@ public class ElectionApp {
          elect.setElectionDate(getDate(6));
          elect.setDateOfElectionResult(getDate(20));
     }
-    private static Date getDate(int days) {
+       private static Date getDate(int days) {
         Calendar cal = Calendar.getInstance();
         cal.add(Calendar.DATE, days);
         System.out.println("Date =" + cal.getTime());
