@@ -26,7 +26,6 @@ public class HospitalApp {
         System.out.println(alexis.getService());
         System.out.println(alexis.getId());
 
-
     }
     private static Date getNextDate(int days){
         Calendar cal = Calendar.getInstance();
