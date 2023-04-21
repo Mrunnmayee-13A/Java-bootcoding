@@ -2,20 +2,19 @@ package com.bootcoding.java.encapsulation.election;
 
 import java.util.Calendar;
 import java.util.Date;
-
 public class ElectionApp {
     public static void main(String[] args) {
         Candidate can = new Candidate();
         can.setName("Ram Shah");
         can.setQualification("MTech in CSE");
         can.setIncome(9000000.00);
-        can.setPartyname("XYZ Party");
+        can.setPartyName("XYZ Party");
         can.setSymbol("Lotus");
 
         System.out.println(can.getName());
         System.out.println(can.getQualification());
         System.out.println(can.getIncome());
-        System.out.println(can.getPartyname());
+        System.out.println(can.getPartyName());
         System.out.println(can.getSymbol());
 
          Election elect = new Election();

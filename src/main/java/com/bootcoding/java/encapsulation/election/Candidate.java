@@ -4,7 +4,7 @@ public class Candidate {
     private String name;
     private String symbol;
     private String qualification;
-    private String partyname;
+    private String partyName;
     private double income;
 
     public String getName() {
@@ -39,11 +39,11 @@ public class Candidate {
         this.qualification = qualification;
     }
 
-    public String getPartyname() {
-        return partyname;
+    public String getPartyName() {
+        return partyName;
     }
 
-    public void setPartyname(String partyname) {
-        this.partyname = partyname;
+    public void setPartyName(String partyName) {
+        this.partyName = partyName;
     }
 }

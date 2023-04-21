@@ -36,7 +36,6 @@ public class Election {
     public void setCity(String city) {
         this.city = city;
     }
-
     private Date electionDate;
     private Date dateOfElectionResult;
     private  String city;
