@@ -22,7 +22,7 @@ public class PrintPaper {
         pp1.thickness = 0.2;
         pp2.thickness = 0.5;
         pp1.brand = "Classmate";
-        pp2.brand ="Youva";
+        pp2.brand ="Nova";
         pp1.type ="Xerox";
         pp2.type ="Photocopy";
 
