@@ -1,7 +1,8 @@
 package com.bootcoding.java.oops;
 
 public class BankAccount {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         int size = args.length;
         if (size < 2) {
             System.out.println("Invalid input!");
