@@ -13,7 +13,7 @@ public class BankAccount {
                 System.out.println("Invalid input! Please provide input multiple of 100");
             }else
                 if (Account.equals("Deposit")) {
-                    int initamount = 500;
+                    int initamount = 1000;
                     int Totamount = initamount + money;
                     System.out.println("Total amount balance= " + Totamount);
 
@@ -22,7 +22,7 @@ public class BankAccount {
                     System.out.println("The balance is= " + amount);
 
                 } else if (Account.equals("Withdraw")) {
-                    int totamount = 1500;
+                    int totamount = 2000;
                     int Withdrawalmoney = totamount - money;
                     System.out.println("Money after withdrawal= " + Withdrawalmoney);
 
