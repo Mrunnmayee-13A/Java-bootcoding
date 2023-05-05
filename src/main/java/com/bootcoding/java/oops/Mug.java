@@ -4,14 +4,14 @@ public class Mug {
     String type;
     String color;
     String brand;
-    int capaity;
+    int capacity;
     String unit;
 
     public void print(){
         System.out.println(type);
         System.out.println(color);
         System.out.println(brand);
-        System.out.println(capaity);
+        System.out.println(capacity);
         System.out.println(unit);
     }
     public static void main(String[] args){
@@ -19,7 +19,7 @@ public class Mug {
         m1.type= "Plastic";
         m1.color="black";
         m1.brand= "cello";
-        m1.capaity=1;
+        m1.capacity=1;
         m1.unit="litre";
         m1.print();
     }
