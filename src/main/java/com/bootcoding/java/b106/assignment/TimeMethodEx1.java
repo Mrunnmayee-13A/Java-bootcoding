@@ -7,8 +7,7 @@ public class TimeMethodEx1 {
         System.out.println("5 min = "+con+" sec");
     }
     public static int MintoSec(int n){
-        int sec= n*60;
-        return sec;
+        return n*60;
     }
 }
 
