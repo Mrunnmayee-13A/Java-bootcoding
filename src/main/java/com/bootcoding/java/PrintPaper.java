@@ -17,12 +17,16 @@ public class PrintPaper {
 
         pp1.dimensions = 2*3;
         pp2.dimensions = 5*5;
-        pp1.price = 2;
+
+        pp1.price = 8;
         pp2.price = 5;
+
         pp1.thickness = 0.2;
         pp2.thickness = 0.5;
+
         pp1.brand = "Classmate";
         pp2.brand ="Nova";
+
         pp1.type ="Xerox";
         pp2.type ="Photocopy";
 
