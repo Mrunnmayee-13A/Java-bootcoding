@@ -5,6 +5,7 @@ public class YearsToAge {
         System.out.println(conversionToDys(13));
     }
     public static int conversionToDys(int a){
-     return a*365;
+
+        return a*365;
     }
 }
