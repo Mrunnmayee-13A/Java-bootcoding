@@ -8,8 +8,8 @@ public class ReverseArray {
           temp= ar[i];
           ar[i]=ar[ar.length-1];
             ar[ar.length-1]=temp;
-
         }
+
         for(int j=0; j<ar.length; j++)
         System.out.print(ar[j]+" ");
         // swapping
